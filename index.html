@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea House</title>
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<!--Font Awsome cdn-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!--Tailwind CDN-->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+    <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
+        <header class="flex pt-10 mb-20 ">
+            <!--Banner Content-->
+            <div>
+                <h1 class="text-5xl lg:text-7xl">It's good
+                    <br>
+                    tea time at The 
+                    <br>
+                    Tea House</h1>
+                    <br>
+                <p class="text-gray-400 w-3/4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <br>
+                <button class="bg-gradient-to-r from-orange-500 to-red-500 p-5 rounded-lg text-white">Explore More <i class="fa-solid fa-arrow-right -rotate-45"></i></button>
+            </div>
+            <!--Image content-->
+            <div class="relative">
+                <!--image-->
+                <div>
+                    <img class="w-full" src="./images/banner.png" alt="">
+                </div>
+                <!--Card-->
+                <div class="flex items-center gap-3 rounded-lg shadow-md px-2 py-2 absolute top-28 md:top-[280px] lg:top-80 md:left-32 lg:left-28 bg-white">
+                    <div>
+                        <i class="fa-solid fa-star text-amber-400 text-2xl"></i>
+                    </div>
+                    <div>
+                        <h2 class="text-2xl font-bold">5.00</h2>
+                        <p class="text-gray-400">Trust Pilot Ratings</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </main>
+</body>
+</html>
